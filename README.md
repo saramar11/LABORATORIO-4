@@ -33,6 +33,22 @@ A partir de esta ecuación donde se tiene en cuenta a la señal original compara
 
 [![Captura-de-pantalla-2024-10-27-a-la-s-10-33-34-p-m.png](https://i.postimg.cc/vZMmgh44/Captura-de-pantalla-2024-10-27-a-la-s-10-33-34-p-m.png)](https://postimg.cc/SJT4HW74) [4]
 
+#### Tipos
+
+
+**- Morlet:** Este tipo de transformada es usada en el análisis de patrones variantes en la frecuencia y el tiempo, esto gracias a que combina una función sinusoidal con una función gaussiana siendo esencial en el análisis de patrones en frecuencias específicas de señales bioeléctricas.
+
+**- Daubechies:** Es una de las mas utilizadas en el analisis de señales biológicas gracias a la buena resolución que ofrece dentro de la frecuencia y el tiempo estas son principalmente usadas para la descomposición de señales no estacionarias (señales con componentes de frecuencia variables en el tiempo) como lo son la señales cardiacas siendo efectivas a la hora de caracterizar los complejos QRS en el electrocardiograma.
+ 
+**- Coiflets:** Estas ofrecen una buena simetría (asegura la forma de la señal) evitando el desplazamiento de los componentes importantes como los picos o transiciones durante el proceso de descomposición de la señal este tipo de transformada es esencial en el estudio de la forma de las distintas ondas que conforman la señal las cuales brindan información diagnóstica.
+
+**- Biorthogonal:** Usada para la descomposición y construcción de la información sin pérdida de datos este tipo de transformada es muy útil ´para el análisis de imágenes diagnósticas 
+
+**- Mexican hat:** Útil para detección de picos abruptos ya que tiende a la segunda derivada gaussiana, con el fin de detectar transiciones o cambios rápidos en la señal com lo son los potenciales evocados (respuestas eléctricas del sistema nervioso)
+
+**- Symlets:** Es un tipo de versión simétrica de la transformada de daubechies que es usada cuando se requiere una transformada con una misma distorsión de fase (mejor alineación temporal) sin presentar adelantos o retrasos de la señal durante la descomposición o construcción de la señal
+
+
 #### Aplicaciones
 Teniendo en cuenta su definición, se puede concluir que la transformada wavelet puede ser de gran uso para todo aquello que involucre procesamiento de señales gracias a la gran cantidad de información que esta nos brinda de la frecuencia en torno al tiempo. Dentro de las aplicaciones de señales biológicas, alguna de ellas y la utilidad de esta transformada son:
 
@@ -49,7 +65,15 @@ Mediante el análisis de la señal emg usando el transformada wavelet es posible
 Así como con la señal EMG, con la señal ECG se puede usar la transformada wavelet para detectar anomalías de la frecuencia cardiaca, así como pueden ser posibles arritmias mediante sus coeficientes o simplemente calcular la frecuencia cardiaca mediante el análisis del complejo QRS (picos) [9].
 
 ##### - EEG (electroencefalografía)
-Dentro del procesamiento de señal de esta prueba se utiliza esta transformada con el fin de identificar los diferentes ritmos cerebrales que tiene el cerebro de acuerdo a sus frecuencias ya que cada una corresponde a diferentes estados mentales y varían de acuerdo a la actividad, por esta razón, es posible diagnosticar una epilepsia o incluso esquizofrenia. Además gracias al uso de esta transformada, es posible detectar los estados del sueño de una persona mediante la sus bandas de frecuencia (delta, theta, gamma, alpha, gamma) [10].
+Dentro del procesamiento de señal de esta prueba se utiliza esta transformada con el fin de identificar los diferentes ritmos cerebrales que tiene el cerebro de acuerdo a sus frecuencias ya que cada una corresponde a diferentes estados mentales y varían de acuerdo a la actividad, por esta razón, es posible diagnosticar una epilepsia o incluso esquizofrenia. Además gracias al uso de esta transformada, es posible detectar los estados del sueño de una persona mediante sus bandas de frecuencia (delta, theta, gamma, alpha, gamma) [10].
+
+## Diagrama de flujo
+
+De acuerdo a lo investigado, y lo postulado en la guía del laboratorio se plantea el siguiente diagrama de flujo el cual contiene la información y pasos a seguir de forma general para este cuarto laboratorio de la asignatura “Procesamiento digital de señales”.
+
+[![Captura-de-pantalla-2024-10-27-a-la-s-11-56-22-p-m.png](https://i.postimg.cc/Z5FCVgGP/Captura-de-pantalla-2024-10-27-a-la-s-11-56-22-p-m.png)](https://postimg.cc/jD2xj8dC)
+
+
 
 
 ## BIBLIOGRAFIA
