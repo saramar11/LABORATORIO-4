@@ -21,8 +21,8 @@ En un principio, es necesario catalogar al sistema nervioso el cual es el encarg
 
 **3) Frecuencias altas (HF):** 0.15-0.4 Hz  representa únicamente la actividad del sistema parasimpático siendo sensible a los cambios dentro del sistema respiratorio, ligando el ritmo respiratorio y la capacidad de relajación.[3]  
 
-###Transformada Wavelet: definición, usos y tipos de wavelet utilizadas en señales biológicas. 
-####Definición
+### Transformada Wavelet: definición, usos y tipos de wavelet utilizadas en señales biológicas. 
+#### Definición
 La transformada wavelet se puede considerar como una extensión del análisis de Fourier, en donde es una herramienta matemática para el análisis local de señales no estacionarias y de rápida transitoriedad la cual permite descomponer a una señal, a diferencia de Fourier, esta la puede descomponer en componentes de tiempo y frecuencia, de este modo es posible analizar la variabilidad de la frecuencia a lo largo del tiempo en una señal, permitiendo saber el donde y cuando ocurren algunas frecuencias que se encuentran dentro de la señal. Por lo tanto, esta transformada descompone una señal en una señal madre llamada Wavelet la cual es una versión desplazada y con un tiempo de duración establecido sin necesidad de tener que limitarse únicamente con las funciones armónicas.
 
 Este análisis de la señal mediante la transformada wavelet es posible mediante una escala y desplazamiento que se le aplique a la señal, lo cual varía de acuerdo a la aplicación que se le desee dar. Ya que una escala baja implica ver más detalle, es decir frecuencias altas en donde se encuentran eventos rápidos y pequeños, mientras que una escala alta se analizan los eventos con frecuencias bajas, es decir para eventos lentos [5]. La transformada wavelet para señales continuas se puede expresar mediante la siguiente ecuación:
@@ -33,22 +33,22 @@ A partir de esta ecuación donde se tiene en cuenta a la señal original compara
 
 [![Captura-de-pantalla-2024-10-27-a-la-s-10-33-34-p-m.png](https://i.postimg.cc/vZMmgh44/Captura-de-pantalla-2024-10-27-a-la-s-10-33-34-p-m.png)](https://postimg.cc/SJT4HW74) [4]
 
-####Aplicaciones
+#### Aplicaciones
 Teniendo en cuenta su definición, se puede concluir que la transformada wavelet puede ser de gran uso para todo aquello que involucre procesamiento de señales gracias a la gran cantidad de información que esta nos brinda de la frecuencia en torno al tiempo. Dentro de las aplicaciones de señales biológicas, alguna de ellas y la utilidad de esta transformada son:
 
-##### Análisis de señales de imagen
+##### - Análisis de señales de imagen
 Específicamente para las IRM (Imágenes por resonancia magnética) y tomografía, se utiliza esta transformada para mejorar la calidad de la imagen y también como apoyo para la detección de características especiales dentro de la imagen [6].  
 
-##### Análisis de sonidos biológicos 
+##### - Análisis de sonidos biológicos 
 Esta transformada se puede aplicar al momento de realizar un análisis de un sonido biológico así como lo es la respiración con un estetoscopio digital, con el fin de detectar patrones anormales en la respiración [7]. 
 
-##### EMG (electromigrafía)
+##### - EMG (electromigrafía)
 Mediante el análisis de la señal emg usando el transformada wavelet es posible identificar patrones de la actividad muscular en algunas tareas o movimientos específicos, siendo de gran ayuda en el área de rehabilitación [8].
 
-##### ECG (electrocardiografía)
+##### - ECG (electrocardiografía)
 Así como con la señal EMG, con la señal ECG se puede usar la transformada wavelet para detectar anomalías de la frecuencia cardiaca, así como pueden ser posibles arritmias mediante sus coeficientes o simplemente calcular la frecuencia cardiaca mediante el análisis del complejo QRS (picos) [9].
 
-##### EEG (electroencefalografía)
+##### - EEG (electroencefalografía)
 Dentro del procesamiento de señal de esta prueba se utiliza esta transformada con el fin de identificar los diferentes ritmos cerebrales que tiene el cerebro de acuerdo a sus frecuencias ya que cada una corresponde a diferentes estados mentales y varían de acuerdo a la actividad, por esta razón, es posible diagnosticar una epilepsia o incluso esquizofrenia. Además gracias al uso de esta transformada, es posible detectar los estados del sueño de una persona mediante la sus bandas de frecuencia (delta, theta, gamma, alpha, gamma) [10].
 
 
