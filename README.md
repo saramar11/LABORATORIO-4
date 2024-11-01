@@ -76,6 +76,12 @@ De acuerdo a lo investigado, y lo postulado en la guía del laboratorio se plant
 [![Captura-de-pantalla-2024-10-27-a-la-s-11-56-22-p-m.png](https://i.postimg.cc/Z5FCVgGP/Captura-de-pantalla-2024-10-27-a-la-s-11-56-22-p-m.png)](https://postimg.cc/jD2xj8dC)
 
 
+## Electrodos
+
+Para la implementación de electrodos en los sujetos, es necesario tener en cuenta las derivaciones del corazón, ya que para el cálculo del intervalo R-R era necesario utilizar una en la que se pudiera tener una buena visibilidad del pico R del complejo. Por esta razón se decidió tomar la derivación V6 y V2 que proporcionaron una buena visibilidad el complejo QRS y finalmente la tierra ubicada sobre un hueso que para este caso se encogió la última costilla. 
+
+
+
 ## Código 
 
 Para la realización del proyecto se cuentan con dos códigos uno correspondiente al sistema de adquisición en donde se tomarán las señales de dos personas de la cuales una será estimulada para un ritmo cardíaco acelerado y la otra recibirá estímulos para un ritmo cardíaco más lento en estado de relajación, se guardaran en y un archivo de texto el cual será procesado mediante el segundo código con el cual se trabajara la señal aplicando cada uno de los procesos correspondientes para el laboratorio. El archivo correspondiente al sistema de adquisición de datos se llama *ecg.py*, mediante este es posible conectar la tarjeta arduino MEGA configurada para obtener los datos de forma serial, conectado a la siguiente interfaz. Para mayor claridad, este sistema de adquisición fue presentado y explicado con mayor profundidad en el LABORATORIO 3 que se encuentra en este mismo perfil.
@@ -90,7 +96,7 @@ Una vez desconectado, los datos serán guardados en un archivo de texto, el cual
 Estas se usan para graficar la señal, operaciones numéricas, aplicación de filtros y finalmente la transformada wavelet . 
 
 
-###Diseño del filtro
+### Diseño del filtro
 Seguido a esto se inicia con el diseño del filtro que se le aplicará a la señal:
 
 [![diseno.png](https://i.postimg.cc/T3fxnZXW/diseno.png)](https://postimg.cc/1fCbQ7X9)
