@@ -1,3 +1,6 @@
+Autoras: Mariana Garcia & Sara Mariana Pinzón
+
+
 # LABORATORIO 4 
 
 Mediante el siguiente laboratorio se busca adquirir una señal ECG y mediante la aplicaciones que se puede tener con la transformada wavelet, determinar la actividad de la activador del sistema autónomo en la que se encuentra la persona evaluada.
