@@ -80,7 +80,7 @@ De acuerdo a lo investigado, y lo postulado en la guía del laboratorio se plant
 
 Para la implementación de electrodos en los sujetos, es necesario tener en cuenta las derivaciones del corazón, ya que para el cálculo del intervalo R-R era necesario utilizar una en la que se pudiera tener una buena visibilidad del pico R del complejo. Por esta razón se decidió tomar la derivación V6 y V2 que proporcionaron una buena visibilidad el complejo QRS y finalmente la tierra ubicada sobre un hueso que para este caso se encogió la última costilla. 
 
-
+[![deruv.png](https://i.postimg.cc/L8VRYBNz/deruv.png)](https://postimg.cc/75bjj7v6)
 
 ## Código 
 
@@ -298,6 +298,18 @@ También, individualmente es posible observar que hay de los dos tipos de activi
 Mediante el procesamiento de esta señal fisiológica correspondiente al ECG, fue posible observar y denotar las diferencias significativas que tiene analizar una señal únicamente con respecto al dominio del tiempo en comparación con la frecuencia con respecto al tiempo de adquisición de la señal mediante la transformada wavelet. Realmente en el espectrograma que se obtuvo a partir de esta, como se mencionó anteriormente no se evidenció una mayor distribución de sus frecuencias con respecto al tiempo debido a que el estado de relajación de los sujetos no fue estimulado de forma significativa como para mostrar una mayor distribución en las frecuencias que se muestran en esta gráfica.
 
 Finalmente, los valores obtenidos durante todo el laboratorio se puede correlacionar desde los datos como la desviación estándar calculada al inicio con el HRV en el dominio del tiempo junto con el análisis de las bandas de frecuencias con el fin de justificar la actividad parasimpática en la que se encontraban los sujetos. Entre más alto fuera el valor de la desviación estándar obtenido a partir de los intervalos R-R de la señal en el dominio del tiempo indicaba una mayor actividad del sistema simpático, por lo que inversamente un valor menor de este indicaría una mayor actividad del sistema parasimpático, en el caso de ambos sujetos se evidencia una desviación estándar reducida entre 0.04 y 0.05 segundos, indicando una mayor actividad parasimpática. Esto como ya se mencionó es sustentado mediante la dominancia de la banda con frecuencia alta en su análisis. Adicionalmente, teniendo en cuenta que durante este laboratorio se estuvo haciendo la comparación entre dos sujetos constantemente, es posible evidenciar que el sujeto 2 obtuvo una mayor actividad simpática que el sujeto 1 no solo mediante el análisis de bandas de frecuencia sino que también gracias a la diferencia de su desviación estándar, ya que el sujeto dos cuenta con 0.05 segundos mientras que el sujeto 1 con 0.04 segundos, indicando y confirmando que el sujeto 2 presenta una mayor actividad simpática con respecto al sujeto 1.
+
+## Preguntas
+
+1. ¿Qué diferencias se observan entre los análisis en el dominio del tiempo y el dominio de la frecuencia?
+En el análisis del dominio del tiempos solo se observa el comportamientos de los complejos R-R en cambio en el dominio de la frecuencia se denota la activación de los sistemas simpatico y parasimpático mediante el análisis de bandas.
+
+2. ¿Qué efecto tiene el uso de diferentes funciones wavelet en los resultados de análisis?
+Como se mencionaba desde un principio existen varios tipos de funciones para aplicar la transformada wavelet, con el fin de poder superponer esta ventana sobre la señal original con el objetivo principal de analizar a la señal tanto en el dominio de la frecuencia como en el del tiempo. Entre más parecida sea la función wavelet utilizada a la señal original, mayor contribución tendrá la transformada wavelet.
+
+3. ¿Qué aplicaciones reales tiene esta práctica?
+La medición del sistema nervioso autónomo observando la actividad de los sistemas simpático y para simpático permitiendo detectar anomalías en su activación gracias a la relación de estos con el sistema cardiovascular todo esto mediante la adquisición de datos por el electrocardiograma 
+
 
 
 
